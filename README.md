@@ -1,19 +1,29 @@
 # Prettier configuration
 
-Prettier configuration to use across all my projects.
+This repository houses a customized Prettier configuration tailored to
+streamline code formatting across all projects.
 
-## Usage
+## Installation
 
-Install the package with your favorite package manager:
+To incorporate this configuration into your projects, follow these simple steps:
+
+1. Installation 
+
+Install the package via your preferred package manager. Here's an example using
+pnpm:
 
 ```shell
-pnpm install --dev 
+pnpm install --save-dev @alexandrelamberty/prettier-config
 ```
+2. Configuration
 
-Add the configuration to your `package.json`:
+Integrate the configuration into your project's package.json file:
 
 ```json
 {
   "prettier": "@alexandrelamberty/prettier-config"
 }
 ```
+
+With this setup, your project will consistently adhere to the specified
+Prettier formatting rules, ensuring code uniformity and readability.
